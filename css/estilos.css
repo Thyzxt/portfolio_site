@@ -380,11 +380,13 @@ body{
 
     #nav_menu{
 
+        height: 110px;
         flex-direction: column;}
     
     #div_menu_logo{
 
-        margin-top: 18px;
+        margin-bottom: 0;
+        margin-top: 24px;
         text-align: center;}
     
     #div_menu_logo img{
@@ -393,6 +395,7 @@ body{
     
     .div_menu{
 
+        margin-top: 0;
         margin-bottom: 8px;
         text-align: center;}
     
@@ -416,10 +419,10 @@ body{
         color: white;
         background-color: #321bad;
         border-radius: 5px;
-        margin: 10px 20px 0px;}
+        margin: 6px 13px 0px;}
 
     #div_menu_contato a{
-   
+
         color: white;
         background-color: #321bad;
         border-radius: 5px;}
@@ -508,6 +511,8 @@ body{
     
     .section_servicos{
     
+       border: 1px solid red;
+       margin-right: 30px;
        margin-top: 4%;
        display: flex;}
     
@@ -533,26 +538,33 @@ body{
     
     .div_servicos h3{
     
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-bottom: 0;
         width: 60px;
         font-size: 8px;}
 
     .div_servicos p{
-    
-        display: none;}
+
+        width: 60px;
+        font-size: 7px;}
+
+    .div_servicos img{
+
+        
+        width: 65%;}
     
     .div_mark_brand{
     
         display: flex;}
     
     .mark_brand_texto{
-    
+
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 250px;
-        width: 200px;
+        width: 180px;
         text-align: center;}
     
     .mark_brand_texto img{
@@ -572,8 +584,8 @@ body{
         width: 170px;}
     
     .mark_brand_img{
-    
-        width: 200px;
+
+        width: 180px;
         height: 250px;}
     
     .mark_brand_img img{
@@ -677,7 +689,7 @@ body{
         margin-top: 60px;
         margin-bottom: 60px;
         height: 1px;
-        width: 400px !important;
+        width: 360px !important;
         background-color: rgb(102, 102, 102);}
 
     .div_proposta{
