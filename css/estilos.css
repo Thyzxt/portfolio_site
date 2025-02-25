@@ -76,13 +76,20 @@ body{
     flex: 40%;
     margin-left: 10%;}
 
-#div_inicio h2{
+#div_inicio h3{
 
     color: #11095f;
     padding: 0;
     margin: 0;
     font-weight: 900;
     font-size: 20px;}
+
+#div_inicio h2{
+
+    color: #11095f;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;}
 
 #div_inicio p{
 
@@ -369,71 +376,361 @@ body{
     width: 15%;
     height: 55%;}
 
-/*@media (max-width: 768px){
+@media (max-width: 480px){
 
     #nav_menu{
 
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-        width: 100%}
-
+        flex-direction: column;}
+    
     #div_menu_logo{
 
-        flex: 100%;
-        text-align: center;
-        margin-left: 0;}
-
+        margin-top: 18px;
+        text-align: center;}
+    
     #div_menu_logo img{
+    
+        width: 40%;}
+    
+    .div_menu{
+
+        margin-bottom: 8px;
+        text-align: center;}
+    
+    .div_menu a{
+
+        font-size: 10px;
+        padding: 10px 8px;
+        color: #0D1321;
+        text-decoration: none;}
+    
+    .div_menu a:hover{
+    
+        border-top: 4px solid #000038;}
+    
+    #menu_atual{
+    
+        border-top: 4px solid #000038;}
+    
+    #div_menu_contato{
+   
+        color: white;
+        background-color: #321bad;
+        border-radius: 5px;
+        margin: 10px 20px 0px;}
+
+    #div_menu_contato a{
+   
+        color: white;
+        background-color: #321bad;
+        border-radius: 5px;}
+    
+    #div_menu_contato:hover{
+    
+        border: none;
+        background-color: #000038;}
+    
+    .header_inicio{
+    
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    
+    #div_inicio{
+    
+        flex: 40%;
+        margin-left: 10%;}
+    
+    #div_inicio h3{
+    
+        color: #11095f;
+        padding: 0;
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 4px !important;
+        font-size: 7px !important;}
+
+    #div_inicio h2{
+    
+        color: #11095f;
+        padding: 0;
+        margin: 0;
+        font-weight: 900;
+        font-size: 25px !important;}
+    
+    #div_inicio p{
+    
+        font-size: 7px;}
+    
+    #botao_inicio_contato{
+    
+        display: inline-block;
+        background-color: #321bad;
+        padding: 7px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;}
+
+    #botao_inicio_contato{
+    
+        font-size: 6px;}
+    
+    #botao_inicio_contato:hover{
+    
+        background-color: #000038;}
+    
+    #div_img_inicio{
+    
+        margin-top: 5px;
+        flex: 40%;
+        text-align: center;}
+    
+    #div_img_inicio img{
+    
+        height: 220px;
+        width: 100%;}
+    
+    .main_servicos{
+    
+        margin-top: 20px;
+        padding: 5%;
+        margin-bottom: 60px;
+        text-align: center;}
+    
+    .main_servicos h2{
+    
+        width: 100%;
+        font-weight: bolder;
+        font-size: 22px;
+        color: white;
+        margin: 0;}
+    
+    .section_servicos{
+    
+       margin-top: 4%;
+       display: flex;}
+    
+    .div_servicos{
+    
+        transition: transform 0.3s ease;
+        width: 12%;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1%;
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #4324d5;}
+    
+    .div_servicos:hover{
+    
+        z-index: 5;
+        transform: translateY(-10px); 
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
+    
+    .div_servicos h3{
+    
+        margin-top: 15px;
+        width: 60px;
+        font-size: 8px;}
+
+    .div_servicos p{
+    
+        display: none;}
+    
+    .div_mark_brand{
+    
+        display: flex;}
+    
+    .mark_brand_texto{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        width: 200px;
+        text-align: center;}
+    
+    .mark_brand_texto img{
+    
+        width: 40px;
+        height: 40px;}
+    
+    .mark_brand_texto h2{
+    
+        color: #221286;
+        font-size: 15px;}
+    
+    .mark_brand_texto p{
+    
+        margin-top: 0;
+        font-size: 8px;
+        width: 170px;}
+    
+    .mark_brand_img{
+    
+        width: 200px;
+        height: 250px;}
+    
+    .mark_brand_img img{
+    
+        height: 100%;
+        border-radius: 1%;
+        width: 100%;
+        margin-bottom: 60px;}
+    
+    .div_marketing_texto{
+    
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;}
+    
+    .div_marketing_texto h2{
+    
+        text-align: justify;
+        color: #11095f;
+        font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+        font-weight: 600;
+        font-size: 30px;}
+    
+    .div_marketing_texto p{
+    
+        text-align: justify;
+        font-size: 12px;}
+    
+    .div_marketing_texto li{
+        
+        margin-bottom: 10px;
+        font-size: 12px;}
+    
+    .div_marketing_texto h3{
+    
+        font-size: 25px;
+        color: #11095f;
+        font-weight: 400;}
+    
+    .rodape{
+    
+        height: 100px;
+        background-image:linear-gradient(180deg, #221286, #11095f, #000038);
+        display: flex;}
+    
+    #div_rodape_logo{
+ 
+        display: none;}
+
+    #div_rodape_logo img{
+    
+        height: 60px;}
+    
+    .div_politicas{
+
+        margin-left: 3%;
+        height: 100%;
+        text-align: center !important;
+        width: 200px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        color: white;}
+    
+    .div_politicas a{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        text-decoration: none;
+        color: white;
+        font-size: 12px;}
+    
+    .div_politicas p{
+
+        display: none;}
+    
+    .div_politicas a:hover{
+    
+        color: white;}
+    
+    .div_sociais{
+
+        margin-right: 8%;
+        text-align: center;
+        width: 200px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;}
+    
+    .rede_social img{
 
         width: 50%;}
 
-    .div_menu{
-
-        text-align: center;
-        flex: 100%;
-        padding: 10px 0;
-        width: 100%;}
-
-    .div_menu a{
-
-        color: #0D1321;
-        font-size: 14px;
-        padding: 10px 0;
-        display: block;}
-
-    .div_menu a:hover{
+    .linha_especa{
         
-        border-top: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 1px;
+        width: 400px !important;
+        background-color: rgb(102, 102, 102);}
+
+    .div_proposta{
+
+        background-image:linear-gradient(180deg, #11095f, #000038);
+        height: 320px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        
+    .div_titulo_proposta{
+        
+        margin-right: 0px !important}
+        
+    .div_titulo_proposta h2{
+ 
+        width: 200px !important;
+        color: white;
+        padding: 0;
+        font-size: 22px !important;
+        margin: 0;}
+        
+    .div_titulo_proposta p{
+        
+        color: white;
+        width: 200px !important;
+        font-size: 15px !important;}
+        
+    .botao_proposta{
+        
         background-color: black;
+        display: inline-block;
+        padding: 10px !important;
+        width: 100px;
+        font-size: 8px !important;
+        text-transform: uppercase;
+        border-radius: 5px;
+        text-decoration: none;
         color: white;}
+        
+    .div_img_proposta{
 
-    #menu_atual{
-
-        background-color: black;
-        color: white;}
-
-    #div_menu_contato {
-        margin-left: 0;
-        margin-right: 0;
-        width: 80%;
-        padding: 8px 20px;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    #div_menu_contato:hover {
-        background-color: #000038;
-    }
-
-    #botao_inicio_contato {
-        font-size: 14px;
-        padding: 15px;
+        margin-top: 25px;
+        margin-left: 20px !important;
+        width: 150px !important;
+        height: 230px !important;
+        text-align: center;}
+        
+    .div_img_proposta img{
+        
         width: 100%;
-        text-align: center;
-    }
-    
-}*/
+        height: 175px !important;
+        margin-bottom: 60px;}}
 
 
 /*Pagina de Politíca --------------------------------------------------------------------------------------------*/
