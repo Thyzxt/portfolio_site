@@ -408,11 +408,11 @@ body{
     
     .div_menu a:hover{
     
-        border-top: 4px solid #000038;}
+        border-top: 2px solid #000038;}
     
     #menu_atual{
     
-        border-top: 4px solid #000038;}
+        border-top: 2px solid #000038;}
     
     #div_menu_contato{
    
@@ -459,11 +459,11 @@ body{
         padding: 0;
         margin: 0;
         font-weight: 900;
-        font-size: 25px !important;}
+        font-size: 23px !important;}
     
     #div_inicio p{
     
-        font-size: 7px;}
+        font-size: 6px;}
     
     #botao_inicio_contato{
     
@@ -510,8 +510,7 @@ body{
         margin: 0;}
     
     .section_servicos{
-    
-       border: 1px solid red;
+
        margin-right: 30px;
        margin-top: 4%;
        display: flex;}
@@ -546,11 +545,10 @@ body{
     .div_servicos p{
 
         width: 60px;
-        font-size: 7px;}
+        font-size: 6px;}
 
     .div_servicos img{
 
-        
         width: 65%;}
     
     .div_mark_brand{
@@ -580,7 +578,7 @@ body{
     .mark_brand_texto p{
     
         margin-top: 0;
-        font-size: 8px;
+        font-size: 6px;
         width: 170px;}
     
     .mark_brand_img{
@@ -633,7 +631,7 @@ body{
         display: flex;}
     
     #div_rodape_logo{
- 
+
         display: none;}
 
     #div_rodape_logo img{
@@ -709,7 +707,7 @@ body{
         width: 200px !important;
         color: white;
         padding: 0;
-        font-size: 22px !important;
+        font-size: 23px !important;
         margin: 0;}
         
     .div_titulo_proposta p{
@@ -1231,6 +1229,93 @@ body{
     margin-bottom: 10px;
     font-size: 17px;}
 
+@media (max-width: 480px){
+
+    .div_conteudo{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        background-color: #11095f;}
+    
+    #div_img_conteudo{
+    
+        display: none;}
+    
+    #div_texto_conteudo{
+
+        margin-left: 0;
+        flex: 90%;
+        width: 300px;}
+    
+    #div_texto_conteudo h2{
+
+        font-size: 28px;}
+    
+    #div_texto_conteudo p{
+   
+        font-size: 18px;}
+
+    #div_texto_conteudo a{
+
+        padding: 10px;
+        font-size: 15px;}
+
+    .section_servicos{
+
+        display: block;
+        justify-content: center;
+        padding: 0 10px;}
+
+    .div_linha_servicos{
+
+        height: auto;
+        padding-bottom: 20px;}
+    
+    #div_linha_titulo{
+
+        margin-top: 50px;
+        font-size: 30px;
+        padding: 0 15px;}
+    
+    .div_conteudo_servicos{
+
+        margin-left: 35px !important;
+        margin-top: 20px !important;
+        display: flex;
+        width: 300px;
+        margin: 10px auto;
+        box-sizing: border-box;}
+    
+    .div_img_servicos{
+
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;}
+    
+    .div_img_servicos img{
+
+        width: 100%;
+        height: auto;}
+    
+    .div_texto_servicos p{
+
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;}
+    
+    .div_texto_servicos h3{
+
+        width: 100%;
+        margin-left: 19px;
+        font-size: 15px;
+        text-align: left;}}
+
+    
+
 /*Pagina de Contato --------------------------------------------------------------------------------------------*/
 
 .titulo_contato{
@@ -1335,6 +1420,73 @@ body{
 
     font-size: 20px;}
 
+@media (max-width: 480px){
+
+    .section_formulario{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;}
+
+    .div_img_contato{
+
+        margin-top: 50px;
+        margin-right: 0%;
+        margin-bottom: 80px;}
+
+    .div_img_contato img{
+
+        margin-right: 20px;
+        width: 20%;}
+
+    .div_formulario_contato{
+
+        width: 350px;}
+
+    .div_formulario_contato input{
+
+        width: 300px;}
+    
+    .div_select_contato select{
+    
+        border: none;
+        width: 120px;
+        font-size: 10px;
+        border-bottom: 2px solid black;}
+    
+    .mensagem textarea{
+    
+        width: 300px !important;
+        padding-left: 8px;
+        resize: none;
+        min-height: 80px;
+        overflow: hidden;}
+    
+    .div_label_politica input{
+    
+        width: auto;}
+    
+    .div_label_politica label{
+    
+        margin-left: 6px;
+        margin-bottom: 7px;
+        font-size: 9px;}
+    
+    #button_formulario{
+    
+        color: white;
+        background-color: #321bad;
+        height: 35px;
+        width: 70px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        border: none;}
+    
+    #button_formulario span{
+    
+        font-size: 16px;}}
+
 /*Sobre Nós --------------------------------------------------------------------------------------------*/
 
 .titulo_proposito{
@@ -1423,29 +1575,20 @@ body{
     .titulo_proposito h1{
 
         color: #321bad;
-        font-size: 36px;}
+        font-size: 30px;}
     
     .titulo_proposito h2{
     
         font-weight: 400;
-        font-size: 18px;}
+        font-size: 15px;}
 
     .div_proposito{
 
         flex-direction: column;}
 
-    .div_tres_blocos{
-
-        margin-top: 0px;
-        margin-bottom: 0px;}
-
     .blocos_acima p{
 
-        font-size: 18px;}
-    
-
-    
-}
+        font-size: 17px;}}
 
 
 
