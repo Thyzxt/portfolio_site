@@ -879,6 +879,64 @@ body{
     height: 380px;
     margin-bottom: 60px;}
 
+@media (max-width: 480px){
+
+    .imagem_fundo{
+
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;}
+
+    .texto_politicas{
+
+        color: rgb(97, 97, 97);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px !important;
+        width: 300px;}
+
+    .texto_politicas h2{
+
+        font-weight: 300;
+        font-size: 18px;}
+        
+    .texto_politicas p{
+        
+        font-weight: 300;
+        font-size: 12px !important;}
+        
+    .texto_politicas ul{
+        
+        font-weight: 300;
+        font-size: 12px;}
+        
+    .texto_politicas ol{
+        
+        font-weight: 300;
+        font-size: 12px;}
+
+    .lista_politicas{
+
+        color: rgb(97, 97, 97);
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;}
+        
+    .lista_politicas h3{
+        
+        color: #000038;
+        font-weight: bolder;
+        font-size: 13px;}
+        
+    .lista_politicas ul{
+        
+        font-weight: 300;
+        font-size: 12px;}}
+
 /*Pagina de Serviços --------------------------------------------------------------------------------------------*/
 
 .div_alinhar_conteudo{
@@ -1359,5 +1417,36 @@ body{
     margin-bottom: 50px;
     margin-top: 0;
     color: white;}
+
+@media (max-width: 480px){
+
+    .titulo_proposito h1{
+
+        color: #321bad;
+        font-size: 36px;}
+    
+    .titulo_proposito h2{
+    
+        font-weight: 400;
+        font-size: 18px;}
+
+    .div_proposito{
+
+        flex-direction: column;}
+
+    .div_tres_blocos{
+
+        margin-top: 0px;
+        margin-bottom: 0px;}
+
+    .blocos_acima p{
+
+        font-size: 18px;}
+    
+
+    
+}
+
+
 
 
