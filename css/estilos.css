@@ -433,14 +433,14 @@ body{
         background-color: #000038;}
     
     .header_inicio{
-    
-        height: 300px;
+
+        height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;}
     
     #div_inicio{
-    
+
         flex: 40%;
         margin-left: 10%;}
     
@@ -450,8 +450,8 @@ body{
         padding: 0;
         margin: 0;
         font-weight: 900;
-        letter-spacing: 4px !important;
-        font-size: 7px !important;}
+        letter-spacing: 3px !important;
+        font-size: 9px !important;}
 
     #div_inicio h2{
     
@@ -459,11 +459,11 @@ body{
         padding: 0;
         margin: 0;
         font-weight: 900;
-        font-size: 23px !important;}
+        font-size: 25px !important;}
     
     #div_inicio p{
     
-        font-size: 6px;}
+        font-size: 8px;}
     
     #botao_inicio_contato{
     
@@ -486,12 +486,12 @@ body{
     #div_img_inicio{
     
         margin-top: 5px;
-        flex: 40%;
+        flex: 30%;
         text-align: center;}
     
     #div_img_inicio img{
     
-        height: 220px;
+        height: 180px;
         width: 100%;}
 
     .ajuste{
@@ -550,7 +550,7 @@ body{
         width: 50%;}
     
     .div_mark_brand{
-    
+
         display: flex;}
     
     .mark_brand_texto{
@@ -679,11 +679,11 @@ body{
         width: 50%;}
 
     .linha_especa{
-        
+
         margin-left: auto;
         margin-right: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
         height: 1px;
         width: 360px !important;
         background-color: rgb(102, 102, 102);}
@@ -1235,6 +1235,7 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 100%;
         height: auto;
         background-color: #11095f;}
     
@@ -1365,11 +1366,6 @@ body{
     .texto_estat p{
     
         font-size: 9px;}
-    
-    .barra{
-    
-        width: 1px;
-        height: 40px;}
 
     .div_titulo_trafego{
 
