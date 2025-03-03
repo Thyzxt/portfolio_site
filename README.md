@@ -1,2 +1,2 @@
-# portifolio_site
+# portfolio_site
 https://thyzxt.github.io/portifolio_site/
